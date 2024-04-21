@@ -16,7 +16,13 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+		fontFamily: {
+			mono: 'Ubuntu Mono',
+		},
     extend: {
+			fontFamily: {
+				montserrat: "Montserrat Variable",
+			},
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

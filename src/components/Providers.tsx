@@ -14,8 +14,10 @@ declare module "@tanstack/react-router" {
 
 export function Providers() {
   return (
-    <ClerkProvider publishableKey={PUBLISHABLE_KEY}>
-      <RouterProvider router={router} />
-    </ClerkProvider>
+    <main className="dark bg-zinc-950 w-screen h-screen text-zinc-100 font-montserrat">
+      <ClerkProvider publishableKey={PUBLISHABLE_KEY}>
+        <RouterProvider router={router} />
+      </ClerkProvider>
+    </main>
   );
 }
